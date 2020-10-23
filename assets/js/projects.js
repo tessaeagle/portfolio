@@ -10,7 +10,16 @@ let render_projects = (slug) => {
     $(`#${slug}`).addClass('white-button-hover');
 
     let projects_obj = [
-        {
+        {    
+            {
+            image: 'assets/images/apex.png',
+            link: 'https://www.brainstimjrnl.com/article/S1935-861X(18)30518-7/fulltext',
+            title: 'NANS 2018',
+            //demo: 'https://mporter.co',
+           //technologies: ['Flask', 'Celery', 'Python'],
+            description: "2018 Neuromodulation Society Poster",
+            categories: ['posters']
+        },
             image: 'assets/images/APA_poster.png',
             link: 'https://github.com/tessaeagle/tessaeagle.github.io/blob/master/assets/images/APA_Poster.png',
             title: 'APA Interoception',
@@ -36,6 +45,24 @@ let render_projects = (slug) => {
            //technologies: ['Flask', 'Celery', 'Python'],
             description: "Undergraduate Research Expo",
             categories: ['posters']
+        },
+         {
+            image: 'assets/images/paper.png',
+            link: 'https://github.com/tessaeagle/tessaeagle.github.io/blob/master/assets/images/poster.png',
+            title: 'MS Treatment Satisfaction',
+            //demo: 'https://mporter.co',
+           //technologies: ['Flask', 'Celery', 'Python'],
+            description: "MSARD Journal Paper",
+            categories: ['papers']
+        },
+        {
+            image: 'assets/images/8_18.png',
+            link: 'https://github.com/tessaeagle/TidyTuesday',
+            title: 'R4DS Tidy Tuesday',
+            //demo: 'https://mporter.co',
+           //technologies: ['Flask', 'Celery', 'Python'],
+            description: "Data Visualization Experiments",
+            categories: ['R']
         },
     ]
 
