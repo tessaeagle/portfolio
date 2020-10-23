@@ -53,7 +53,7 @@ let render_projects = (slug) => {
             //demo: 'https://mporter.co',
            //technologies: ['Flask', 'Celery', 'Python'],
             description: "MSARD Journal Paper",
-            categories: ['papers']
+            categories: ['papers', 'featured']
         },
         {
             image: 'assets/images/8_18.png',
@@ -62,7 +62,7 @@ let render_projects = (slug) => {
             //demo: 'https://mporter.co',
            //technologies: ['Flask', 'Celery', 'Python'],
             description: "Data Visualization Experiments",
-            categories: ['R']
+            categories: ['R', 'featured']
         },
     ]
 
