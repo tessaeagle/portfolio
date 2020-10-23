@@ -9,9 +9,8 @@ let render_projects = (slug) => {
     $('.white-button').removeClass('white-button-hover');
     $(`#${slug}`).addClass('white-button-hover');
 
-    let projects_obj = [
-        {    
-            {
+    let projects_obj = [ 
+        {
             image: 'assets/images/apex.png',
             link: 'https://www.brainstimjrnl.com/article/S1935-861X(18)30518-7/fulltext',
             title: 'NANS 2018',
@@ -20,6 +19,7 @@ let render_projects = (slug) => {
             description: "2018 Neuromodulation Society Poster",
             categories: ['posters']
         },
+        {
             image: 'assets/images/APA_poster.png',
             link: 'https://github.com/tessaeagle/tessaeagle.github.io/blob/master/assets/images/APA_Poster.png',
             title: 'APA Interoception',
