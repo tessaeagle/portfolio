@@ -227,16 +227,21 @@ img {
   font-size: 20.8px;
   font-size: 1.3rem;
   margin: 30px auto;
-  color: #ffffff;
+  color: #404040;
 }
 
 .paragraph-text-normal {
   font-family: 'PT Sans', sans-serif;
-  color: #ffffff;
+  color: #404040;
 }
 
 .pt-sans-font {
   font-family: 'PT Sans', sans-serif;
+}
+
+.ul {
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
 }
 
 .skill-grid-item {
