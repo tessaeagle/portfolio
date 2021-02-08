@@ -56,15 +56,6 @@ let render_projects = (slug) => {
             categories: ['posters']
         },
         {
-            image: 'assets/images/data-destroyer.png',
-            link: 'https://github.com/abhn/data-destroyer-gui',
-            title: 'Data Destroyer',
-            demo: false,
-            technologies: ['C++', 'Qt'],
-            description: "Native GUI wrapper for GNU coreutils tool 'dd'",
-            categories: ['posters']
-        },
-        {
             image: 'assets/images/poster.png',
             link: 'https://github.com/tessaeagle/tessaeagle.github.io/blob/master/assets/images/poster.png',
             title: 'Undergraduate Honors Thesis',
@@ -90,15 +81,6 @@ let render_projects = (slug) => {
             technologies: ['Tracery'],
             description: "Twitterbot created for bite-sized hourly workouts",
             categories: ['research', 'featured']
-        },
-        {
-            image: 'assets/images/koalamate.png',
-            link: 'https://github.com/abhn/koalamate',
-            title: 'Koalamate',
-            demo: false,
-            technologies: ['Electron', 'Javascript'],
-            description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
-            categories: ['native']
         },
     ]
 
