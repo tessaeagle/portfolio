@@ -11,13 +11,13 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
+            image: 'assets/images/apex.png',
+            link: 'https://www.brainstimjrnl.com/article/S1935-861X(18)30518-7/fulltext',
+            title: 'NANS 2018',
             demo: 'https://mporter.co',
             technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
+            description: "2018 Neuromodulaton Society Poster",
+            categories: ['featured', 'research']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
