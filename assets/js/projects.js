@@ -38,7 +38,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'papers']
         },
         {
-            image: 'assets/images/APA_poster.png',
+            image: 'assets/images/APA_Poster.png',
             link: 'https://github.com/tessaeagle/tessaeagle.github.io/blob/master/assets/images/APA_Poster.png',
             title: 'APA Poster',
             demo: 'false',
