@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'NANS 2018',
             demo: 'https://mporter.co',
             technologies: ['Flask', 'Celery', 'Python'],
-            description: "2018 Neuromodulaton Society Poster",
+            description: "2018 Neuromodulation Society Poster",
             categories: ['featured', 'research']
         },
         {
