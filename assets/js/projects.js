@@ -14,8 +14,8 @@ let render_projects = (slug) => {
             image: 'assets/images/apex.png',
             link: 'https://www.brainstimjrnl.com/article/S1935-861X(18)30518-7/fulltext',
             title: 'NANS 2018',
-            demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
+            demo: false,
+            technologies: false,
             description: "2018 Neuromodulation Society Poster",
             categories: ['featured', 'research']
         },
