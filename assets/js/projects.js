@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://www.brainstimjrnl.com/article/S1935-861X(18)30518-7/fulltext',
             title: 'NANS 2018',
             demo: false,
-            technologies: false,
+            technologies: ['R', 'ggplot'],
             description: "2018 Neuromodulation Society Poster",
             categories: ['featured', 'research']
         },
