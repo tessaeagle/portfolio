@@ -30,7 +30,7 @@ let render_projects = (slug) => {
         },        
         {
             image: 'assets/images/paper.png',
-            link: 'https://github.com/tessaeagle/tessaeagle.github.io/blob/master/assets/images/paper.png',
+            link: 'https://www.msard-journal.com/article/S2211-0348(17)30248-1/abstract',
             title: 'MSARD Paper',
             demo: false,
             technologies: [],
