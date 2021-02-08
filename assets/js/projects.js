@@ -11,15 +11,6 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/apex.png',
-            link: 'https://www.brainstimjrnl.com/article/S1935-861X(18)30518-7/fulltext',
-            title: 'NANS 2018',
-            demo: false,
-            technologies: [],
-            description: "2018 Neuromodulation Society Poster",
-            categories: ['featured', 'research']
-        },
-        {
             image: 'assets/images/8_18.png',
             link: 'https://github.com/tessaeagle/TidyTuesday',
             title: 'R4DS Tidy Tuesday',
@@ -28,6 +19,15 @@ let render_projects = (slug) => {
             description: "Data Visualization Experiments with R",
             categories: ['featured', 'r']
         },
+        {
+            image: 'assets/images/apex.png',
+            link: 'https://www.brainstimjrnl.com/article/S1935-861X(18)30518-7/fulltext',
+            title: 'NANS 2018',
+            demo: false,
+            technologies: [],
+            description: "2018 Neuromodulation Society Poster",
+            categories: ['featured', 'research']
+        },        
         {
             image: 'assets/images/paper.png',
             link: 'https://github.com/tessaeagle/tessaeagle.github.io/blob/master/assets/images/paper.png',
