@@ -2,7 +2,6 @@ $(document).ready(() => {
     render_projects('featured');
 })
 
-
 let render_projects = (slug) => {
     let projects_area = $('.projects-wrapper');
 
@@ -17,6 +16,15 @@ let render_projects = (slug) => {
             demo: 'https://github.com/tessaeagle/TidyTuesday',
             technologies: ['R', 'ggplot'],
             description: "Data Visualization Experiments with R",
+            categories: ['featured', 'r']
+        },
+        {
+            image: 'assets/images/Day_4.png',
+            link: 'https://github.com/tessaeagle/30daychartchallenge',
+            title: 'Data Visualizations',
+            demo: 'https://github.com/tessaeagle/30daychartchallenge',
+            technologies: ['R', 'ggplot'],
+            description: "30 Day Chart Challenge",
             categories: ['featured', 'r']
         },
         {
