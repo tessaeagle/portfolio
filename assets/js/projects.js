@@ -13,7 +13,7 @@ let render_projects = (slug) => {
             image: 'assets/images/8_18.png',
             link: 'https://github.com/tessaeagle/TidyTuesday',
             title: 'R4DS Tidy Tuesday',
-            demo: 'https://github.com/tessaeagle/TidyTuesday',
+            demo: false,
             technologies: ['R', 'ggplot'],
             description: "Data Visualization Experiments with R",
             categories: ['featured', 'r']
@@ -22,7 +22,7 @@ let render_projects = (slug) => {
             image: 'assets/images/Day_4.png',
             link: 'https://github.com/tessaeagle/30daychartchallenge',
             title: 'Data Visualizations',
-            demo: 'https://github.com/tessaeagle/30daychartchallenge',
+            demo: false,
             technologies: ['R', 'ggplot'],
             description: "30 Day Chart Challenge",
             categories: ['featured', 'r']
@@ -58,7 +58,7 @@ let render_projects = (slug) => {
             image: 'assets/images/tinyworkout.png',
             link: 'https://twitter.com/tinyworkoutbot',
             title: 'Workout Twitterbot',
-            demo: 'false',
+            demo: false,
             technologies: ['Tracery'],
             description: "Twitterbot created for bite-sized hourly workouts",
             categories: ['research', 'featured']
@@ -85,7 +85,7 @@ let render_projects = (slug) => {
             image: 'assets/images/APA_Poster.png',
             link: 'https://github.com/tessaeagle/tessaeagle.github.io/blob/master/assets/images/APA_Poster.png',
             title: 'APA Poster',
-            demo: 'false',
+            demo: false,
             technologies: [],
             description: "Interoception Poster Presented at APA",
             categories: ['featured', 'posters']
